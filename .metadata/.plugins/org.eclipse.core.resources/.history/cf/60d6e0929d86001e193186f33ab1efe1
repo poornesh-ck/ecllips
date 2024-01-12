@@ -1,0 +1,17 @@
+package Regex;
+
+import java.util.Arrays;
+import java.util.Collections;
+
+public class Longestprefix {
+	public static void main(String args[]) {
+		String[] words = {"dog", "racecar", "carytyutjy"};
+		 Collections.min(Arrays.asList(words));
+		 for(int i=0;i<words.length;i++) {
+			 System.out.println(words[i]);
+		 }
+	}
+	 
+
+
+}

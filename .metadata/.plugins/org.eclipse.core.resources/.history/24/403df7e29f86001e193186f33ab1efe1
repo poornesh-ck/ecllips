@@ -1,0 +1,16 @@
+package Regex;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.*;
+
+public class RegexFirst {
+	public static void main(String args[]) {
+		Pattern p=Pattern.compile("..hd");
+		Matcher m=p.matcher("ythd");
+		System.out.println(m.matches());
+		System.out.println(Pattern.matches("..hg", "adhg"));
+		
+	}
+
+}

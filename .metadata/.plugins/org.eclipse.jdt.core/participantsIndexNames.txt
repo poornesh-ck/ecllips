@@ -1,0 +1,15 @@
+INDEX VERSION 1.134
+C:\Users\poornesh.ck\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2397381327.index
+\trainingweb\src\main\java
+C:\Users\poornesh.ck\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\736611083.index
+\mvcspring\src\main\resources
+C:\Users\poornesh.ck\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2132908962.index
+\jstlDemo\src\main\java
+C:\Users\poornesh.ck\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1520340431.index
+\MVCAnnotaionConfig\src\main\resources
+C:\Users\poornesh.ck\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2391893646.index
+\ecommerce\src\main\java
+C:\Users\poornesh.ck\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\35323834.index
+\Ecom\src\main\java
+C:\Users\poornesh.ck\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2655972734.index
+\jsp_demo\src\main\java

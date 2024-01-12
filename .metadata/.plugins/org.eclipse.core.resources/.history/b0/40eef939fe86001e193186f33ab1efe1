@@ -1,0 +1,30 @@
+package Regex;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Weather {
+	public static void main(String[] args) {
+		String s1="{\"London\":\"Sunny\", \"Paris\":\"Cloudy\", \"Berlin\":\"Rain\"}";
+		String s2="{\"London\":\"Cloudy\", \"Paris\":\"Cloudy\", \"Berlin\":\"Sunny\"}";
+		Map<String, String> m1=new HashMap<String, String>();
+		Map<String, String> m2=new HashMap<String, String>();
+		Pattern p =Pattern.compile("\\w+");
+		Matcher m= p.matcher(s1);
+		Set<String> set1=new HashSet<String>();
+		while(m.find()) {
+			set1.add(m.group());
+//			System.out.println();
+
+		}
+		System.out.println(set1);
+		
+		
+		
+	}
+
+}

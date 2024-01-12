@@ -1,0 +1,51 @@
+package Regex;
+import java.util.*;
+public class Strings {
+	public static void main(String args[]) {
+		String str1="apple";
+		String str2="palace ";
+		Set<Character> s1=new HashSet<Character>();
+		String news="";
+		for(int i=0;i<str1.length();i++) {
+			for(int j=0;j<str2.length();j++) {
+				if(str1.charAt(i)==str2.charAt(j)) {
+					news=news+str1.charAt(i);
+//					s1.add(str1.charAt(i));
+//					System.out.println(str1.charAt(i));
+				}
+			}
+		}
+		String n1="";
+		for(Character i:news.toCharArray()) {
+			if(s1.add(i)) {
+				n1=n1+i;
+			}
+		}
+		System.out.println(n1);
+		
+		
+		
+//		String str1="apple";
+//		String str2="palace";
+//		Set<Character> commonCharsSet = new HashSet<>();
+//        Set<Character> str2Set = new HashSet<>();
+//
+//        // Populate str2Set for efficient lookup
+//        for (char ch : str2.toCharArray()) {
+//            str2Set.add(ch);
+//        }
+//
+//        // Find common characters in str1 in order
+//        StringBuilder result = new StringBuilder();
+//        for (char ch : str1.toCharArray()) {
+//            if (str2Set.contains(ch) && !commonCharsSet.contains(ch)) {
+//                commonCharsSet.add(ch);
+//                result.append(ch);
+//            }
+//        }
+//        System.out.println(result);
+		
+		
+	}
+
+}

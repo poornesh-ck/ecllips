@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [01/Sep/2023:09:39:33 +0530] "GET /ecommerce/Registeration.jsp HTTP/1.1" 200 2366
+0:0:0:0:0:0:0:1 - - [01/Sep/2023:09:40:49 +0530] "GET /ecommerce/Registeration.jsp HTTP/1.1" 200 2346
+0:0:0:0:0:0:0:1 - - [01/Sep/2023:09:41:12 +0530] "GET /ecommerce/Registeration.jsp HTTP/1.1" 200 2366
+0:0:0:0:0:0:0:1 - - [01/Sep/2023:09:41:56 +0530] "GET /ecommerce/Registeration.jsp?username=ghgjh&password=fdfgh HTTP/1.1" 200 2366
+0:0:0:0:0:0:0:1 - - [01/Sep/2023:09:43:31 +0530] "GET /ecommerce/Registeration.jsp?username=bchshc&password=kjdjkhas HTTP/1.1" 200 2366
+0:0:0:0:0:0:0:1 - - [01/Sep/2023:11:29:23 +0530] "GET /ecommerce/Registeration.jsp?username=jnj&password=dvs HTTP/1.1" 200 2363

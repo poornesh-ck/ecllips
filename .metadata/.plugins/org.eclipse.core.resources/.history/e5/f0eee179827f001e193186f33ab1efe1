@@ -1,0 +1,13 @@
+package Regex;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class RegexFirst {
+	public static void main(String args[]) {
+		Pattern p=Pattern.compile("ashd");
+		Matcher m=p.matcher("as..");
+		System.out.println(m.matches());
+	}
+
+}
